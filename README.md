@@ -2,7 +2,7 @@
 
 A standing instruction file for AI writing tools. It names the patterns that make output read as machine-generated, and tells the model what to do instead of each one.
 
-Most anti-AI-writing advice stops at vocabulary. Ban "delve," ban "tapestry," and the output still reads synthetic, because the vocabulary was never the problem. The tells that survive a normal edit are structural: the shape of the argument, the rhythm of the sentences, the fake symmetry of a three-part list. This file catches both layers, and the structural section is the one that does the work.
+Most anti-AI-writing advice stops at vocabulary. Ban "delve," ban "tapestry," and the output still reads synthetic, because vocabulary is only the first layer. The tells that survive a normal edit are structural: the shape of the argument, the rhythm of the sentences, the fake symmetry of a three-part list. This file catches both layers, and spends most of its length on the structural one.
 
 ## The three patterns
 
@@ -20,9 +20,10 @@ One signal covers all three, and it shows up in you rather than on the page. Rel
 
 | File | What it is |
 |---|---|
-| [`anti-ai-slop.md`](anti-ai-slop.md) | The standard. Standing instruction, the three patterns, banned formulas, banned words, phrases we never use, nineteen structural tells, formatting conventions, and the frequency rule |
+| [`anti-ai-slop.md`](anti-ai-slop.md) | The standard. Standing instruction, the three patterns, banned formulas, banned words, phrases we never use, seventeen structural tells plus a power-lexicon carve-out, formatting conventions, and the frequency rule |
+| [`CHANGELOG.md`](CHANGELOG.md) | What changed in each version |
 
-One file. It's built to be pasted somewhere it persists.
+One standard file, built to be pasted somewhere it persists.
 
 ## Start here
 
@@ -30,13 +31,15 @@ One file. It's built to be pasted somewhere it persists.
 2. Paste the whole file into Claude Projects, a Custom GPT, or a system prompt, wherever your standards persist across a body of work
 3. For a one-off where the writing matters, paste it at the top of the thread instead
 
-Then keep writing and let it catch things. The standing instruction at the top of the file tells the model to report which patterns it had to fix, so you learn the tells rather than outsourcing them.
+Then keep writing and let it catch things. The standing instruction at the top of the file tells the model to list the patterns it fixed in one line at the end of each draft, so you learn the tells rather than outsourcing them. Its first three rules cover how the model thinks with you, not only how it writes, and the file says how to drop them if you only want the writing rules.
 
 ## The frequency rule
 
-One instance of any pattern can land. Two in the same piece is a yellow flag. Three or more is AI exhaust.
+One instance of a structural tell can land. Two in the same piece is a yellow flag. Three or more is AI exhaust.
 
-This matters more than a zero-tolerance reading would. Several of these patterns are legitimate moves used once. What makes writing read as machine-generated is density, not presence.
+This matters more than a zero-tolerance reading would. Several of the structural tells are legitimate moves used once. What makes writing read as machine-generated is density, not presence.
+
+Banned formulas, banned words, and phrases we never use are the exception. They're zero tolerance, and where a banned formula also appears as a structural tell, the ban wins.
 
 ## Why this exists
 
@@ -52,6 +55,6 @@ Published in full because a standard only compounds when the other people drafti
 
 **Storied AI** runs Storied's narrative method inside Claude, so you can reach for it in the flow of work. [storiedinc.com](https://storiedinc.com)
 
-Anti-AI Slop v1.1 © 2026 Get Storied, Inc. Storied® is a registered mark and Storied AI™ a trademark of Get Storied, Inc. The license covers this text and grants no rights in the marks.
+Anti-AI Slop v1.2 © 2026 Get Storied, Inc. Storied® is a registered mark and Storied AI™ a trademark of Get Storied, Inc. The license covers this text and grants no rights in the marks.
 
 *Michael Margolis · [Storied](https://storiedinc.com)*

@@ -1,6 +1,6 @@
 # Anti-AI Slop
 
-v1.1 · Storied · [storiedinc.com](https://storiedinc.com)
+v1.2 · Storied · [storiedinc.com](https://storiedinc.com)
 
 **What this is.** A standing instruction file for AI writing tools. It names the patterns that make output read as machine-generated, and tells the model what to do instead of each.
 
@@ -8,11 +8,13 @@ v1.1 · Storied · [storiedinc.com](https://storiedinc.com)
 
 **How to load it.** Paste the whole file into Claude Projects, a custom GPT, or a system prompt, where it persists across a body of work. Paste it at the top of a thread when the writing matters and the thread is short-lived. Or give the model the raw file URL and tell it to hold these rules.
 
-**Scope note.** Vocabulary and formula tells are the easy layer and most people already catch them. The structural tells are the layer that survives a normal edit, because the problem is the shape of the writing rather than the word choice. Both are here. The structural section is the one that does the work.
+**Scope note.** Most people already catch the vocabulary and formula tells. The structural tells survive a normal edit, because the problem is the shape of the writing rather than the word choice. This file covers both.
 
 ## The Standing Instruction
 
-Paste this section into the tool. Everything below it is the reference the model checks against.
+Paste the whole file, not this section alone. The standing instruction tells the model what to do, and the sections below are what it checks against. It needs both.
+
+The first three rules cover thinking as well as writing, on purpose. Flattery shows up in analysis before it shows up in prose, so the instruction changes how the model works with you in every exchange, not only when it drafts. If you only want the writing rules, keep the last paragraph of the instruction and drop the rest.
 
 *When you help me think, work, or write, hold these three rules.*
 
@@ -24,7 +26,7 @@ Paste this section into the tool. Everything below it is the reference the model
 
 *Once per exchange, when I'm about to act on something, ask me one question: what's the one thing that would change your mind? Then help me go look for it.*
 
-*Run the banned formulas, banned words, and structural tells below against anything you draft for me. Report which ones you had to fix.*
+*Run the banned formulas, banned words, and structural tells below against anything you draft for me. At the end of each draft, list the patterns you fixed in one line.*
 
 ## The Three Patterns
 
@@ -130,7 +132,7 @@ Three short declaratives stacked in a row, especially in marketing or buyer-faci
 
 ### Negative Differentiation Triple
 
-"Not X. Not Y. Not Z." used as a positioning move. Also listed in the banned formulas above. Structurally it's three strawmen pretending to be a category definition. Position by what the work IS, not by what it isn't. Let the category do the differentiation work.
+"Not X. Not Y. Not Z." used as a positioning move. Also listed in the banned formulas above. Structurally it's three strawmen pretending to be a category definition. Because it's a banned formula, it's zero tolerance and the frequency rule doesn't apply to it. Position by what the work IS, not by what it isn't. Let the category do the differentiation work.
 
 **Test:** would a buyer reading the line learn what this thing is, or only what it isn't? If only what it isn't, rewrite as positive positioning.
 
@@ -194,7 +196,9 @@ House preferences rather than universal law, but each is a reliable tell.
 
 ## The Frequency Rule
 
-One instance of any pattern above can land. Two in the same piece is a yellow flag. Three or more is AI exhaust. Edit accordingly.
+The frequency rule covers the structural tells. One instance of a structural tell can land. Two in the same piece is a yellow flag. Three or more is AI exhaust. Edit accordingly.
+
+Banned formulas, banned words, and phrases we never use get no allowance. One is one too many. Where a banned formula also appears as a structural tell, the ban wins.
 
 ---
 
@@ -202,6 +206,6 @@ One instance of any pattern above can land. Two in the same piece is a yellow fl
 
 **Storied AI** runs the method inside Claude, so you can reach for it in the flow of work. [storiedinc.com](https://storiedinc.com)
 
-Anti-AI Slop v1.1 © 2026 Get Storied, Inc. Licensed [CC BY 4.0](LICENSE). Storied® is a registered mark and Storied AI™ a trademark of Get Storied, Inc. The license covers this text and grants no rights in the marks.
+Anti-AI Slop v1.2 © 2026 Get Storied, Inc. Licensed [CC BY 4.0](LICENSE). Storied® is a registered mark and Storied AI™ a trademark of Get Storied, Inc. The license covers this text and grants no rights in the marks.
 
 *Michael Margolis · [Storied](https://storiedinc.com)*
